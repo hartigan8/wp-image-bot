@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
-def doIt(number):
+def send(number):
     name = input('Enter the name of user or group : ')
     driver = webdriver.Chrome()
     driver.get('https://web.whatsapp.com/')
